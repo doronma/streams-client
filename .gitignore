@@ -11,6 +11,9 @@
 # production
 /build
 
+# internal properties
+meta
+
 # misc
 .DS_Store
 .env.local
