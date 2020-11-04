@@ -1,8 +1,8 @@
-import { SIGN_IN, SIGN_OUT } from '../actions/types'
+import { SIGN_IN, SIGN_OUT } from "../actions/types";
 
 const INITIAL_STATE = {
     isSignedIn: null,
-    userId: null
+    userId: null,
 };
 
 const authReducer = (state = INITIAL_STATE, action) => {
@@ -14,7 +14,6 @@ const authReducer = (state = INITIAL_STATE, action) => {
         default:
             return state;
     }
-
 };
 
 export default authReducer;
